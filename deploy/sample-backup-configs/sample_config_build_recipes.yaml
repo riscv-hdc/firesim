@@ -361,3 +361,18 @@ nitefury_firesim_rocket_singlecore_no_nic:
     post_build_hook: null
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/rhsresearch_nitefury_ii.yaml
+
+# HPU SoC on AWS F1 config
+firesim_hpu_soc_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfig
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
