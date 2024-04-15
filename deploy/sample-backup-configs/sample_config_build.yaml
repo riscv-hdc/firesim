@@ -56,8 +56,8 @@ builds_to_run:
 
     # Config for HPU SoC
     - firesim_baseline_soc_no_nic
-    # - firesim_hpu_soc_no_nic
-    # - firesim_hpu_socdw128ehw4_no_nic
+    - firesim_hpu_soc_no_nic
+    - firesim_hpu_socdw128ehw4_no_nic
     - firesim_hpu_socdw128ehw8_no_nic
     - firesim_hpu_socdw128ehw16_no_nic
     - firesim_hpu_socdw256ehw4_no_nic
