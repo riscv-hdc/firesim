@@ -55,19 +55,20 @@ builds_to_run:
     # - xilinx_vcu118_firesim_rocket_singlecore_4GB_no_nic
 
     # Config for HPU SoC
+    - firesim_baseline_soc_no_nic
     # - firesim_hpu_soc_no_nic
-    - firesim_hpu_socdw128ehw4_no_nic
-    # - firesim_hpu_socdw128ehw8_no_nic
-    # - firesim_hpu_socdw128ehw16_no_nic
-    # - firesim_hpu_socdw256ehw4_no_nic
-    # - firesim_hpu_socdw256ehw8_no_nic
-    # - firesim_hpu_socdw256ehw16_no_nic
-    # - firesim_hpu_socdw512ehw4_no_nic
-    # - firesim_hpu_socdw512ehw8_no_nic
-    # - firesim_hpu_socdw512ehw16_no_nic
-    # - firesim_hpu_socdw1024ehw4_no_nic
-    # - firesim_hpu_socdw1024ehw8_no_nic
-    # - firesim_hpu_socdw1024ehw16_no_nic
+    # - firesim_hpu_socdw128ehw4_no_nic
+    - firesim_hpu_socdw128ehw8_no_nic
+    - firesim_hpu_socdw128ehw16_no_nic
+    - firesim_hpu_socdw256ehw4_no_nic
+    - firesim_hpu_socdw256ehw8_no_nic
+    - firesim_hpu_socdw256ehw16_no_nic
+    - firesim_hpu_socdw512ehw4_no_nic
+    - firesim_hpu_socdw512ehw8_no_nic
+    - firesim_hpu_socdw512ehw16_no_nic
+    - firesim_hpu_socdw1024ehw4_no_nic
+    - firesim_hpu_socdw1024ehw8_no_nic
+    - firesim_hpu_socdw1024ehw16_no_nic
 
 agfis_to_share:
     # - firesim_hpu_soc_no_nic

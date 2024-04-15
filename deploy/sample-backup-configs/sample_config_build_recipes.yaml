@@ -377,6 +377,22 @@ firesim_hpu_soc_no_nic:
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/f1.yaml
 
+
+# Baseline SoC Config to compare with
+firesim_baseline_soc_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimBaselineSoCConfig
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
 # HPU Design Space Exploration
 firesim_hpu_socdw128ehw4_no_nic:
     PLATFORM: f1
