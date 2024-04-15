@@ -376,3 +376,172 @@ firesim_hpu_soc_no_nic:
     post_build_hook: null
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+# HPU Design Space Exploration
+firesim_hpu_socdw128ehw4_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw128ehw4
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw128ehw8_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw128ehw8
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw128ehw16_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw128ehw16
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw256ehw4_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw256ehw4
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw256ehw8_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw256ehw8
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw256ehw16_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw256ehw16
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw512ehw4_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw512ehw4
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw512ehw8_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw512ehw8
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw512ehw16_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw512ehw16
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw1024ehw4_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw1024ehw4
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw1024ehw8_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw1024ehw8
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
+
+firesim_hpu_socdw1024ehw16_no_nic:
+    PLATFORM: f1
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimCustomHPUSoCConfigdw1024ehw16
+    PLATFORM_CONFIG: WithAutoILA_BaseF1Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 30 # conservative for now, later sweep for higher frequency
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/f1.yaml
